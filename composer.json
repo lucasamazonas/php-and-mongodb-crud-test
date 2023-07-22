@@ -1,0 +1,19 @@
+{
+    "name": "lucas/php-mongo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucassilvaamazonas",
+            "email": "lucassilvaamazonas@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.16",
+        "vlucas/phpdotenv": "^5.5",
+        "ext-mongodb": "*"
+    }
+}
