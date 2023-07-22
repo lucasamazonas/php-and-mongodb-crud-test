@@ -16,7 +16,7 @@ $produto = $db->produtos->findOne([
 echo "Produto: " . PHP_EOL;
 echo "  _id: " . $produto->_id . PHP_EOL;
 echo "  Nome: " . $produto->nome . PHP_EOL;
-echo "  Estoque: " . $produto->nome . PHP_EOL;
+echo "  Estoque: " . $produto->estoque . PHP_EOL;
 echo "  Estoque Seguranca: " . $produto->estoque_seguranca . PHP_EOL;
 echo "  Ponto Pedido: " . $produto->ponto_pedido . PHP_EOL;
 echo "  Estoque Máximo: " . $produto->estoque_maximo . PHP_EOL;
