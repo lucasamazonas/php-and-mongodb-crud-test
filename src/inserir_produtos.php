@@ -20,11 +20,11 @@ for ($count = 0; $count < $argv[1]; $count++) {
     $produtos[] = [
         "count" => $count,
         "nome" => "Produto " . $count,
-        "estoque" => rand() * $count,
-        "estoque_seguranca" => rand() * $count,
-        "ponto_pedido" => rand() * $count,
-        "estoque_maximo" => rand() * $count,
-        "id_segmento" => rand(),
+        "estoque" => rand(0, 1) * $count,
+        "estoque_seguranca" => rand(0, 1) * $count,
+        "ponto_pedido" => rand(0, 1) * $count,
+        "estoque_maximo" => rand(0, 1) * $count,
+        "id_segmento" => rand(0, 1),
         "nome_segmento" => "Segmento " . $count
     ];
 
